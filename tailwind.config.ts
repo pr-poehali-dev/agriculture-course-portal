@@ -98,12 +98,12 @@ export default {
 					'50%': { transform: 'translateY(-10px)' }
 				},
 				'pulse-glow': {
-					'0%, 100%': { boxShadow: '0 0 20px rgba(37, 168, 85, 0.3)' },
-					'50%': { boxShadow: '0 0 40px rgba(37, 168, 85, 0.7)' }
+					'0%, 100%': { 'box-shadow': '0 0 20px rgba(37, 168, 85, 0.3)' },
+					'50%': { 'box-shadow': '0 0 40px rgba(37, 168, 85, 0.7)' }
 				},
 				'shimmer': {
-					'0%': { backgroundPosition: '-200% 0' },
-					'100%': { backgroundPosition: '200% 0' }
+					'0%': { 'background-position': '-200% 0' },
+					'100%': { 'background-position': '200% 0' }
 				}
 			},
 			animation: {
