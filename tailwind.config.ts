@@ -98,12 +98,12 @@ export default {
 					'50%': { transform: 'translateY(-10px)' }
 				},
 				'pulse-glow': {
-					'0%, 100%': { 'box-shadow': '0 0 20px rgba(37, 168, 85, 0.3)' },
-					'50%': { 'box-shadow': '0 0 40px rgba(37, 168, 85, 0.7)' }
+					'0%, 100%': { opacity: '0.7' },
+					'50%': { opacity: '1' }
 				},
 				'shimmer': {
-					'0%': { 'background-position': '-200% 0' },
-					'100%': { 'background-position': '200% 0' }
+					'0%': { transform: 'translateX(-100%)' },
+					'100%': { transform: 'translateX(100%)' }
 				}
 			},
 			animation: {
