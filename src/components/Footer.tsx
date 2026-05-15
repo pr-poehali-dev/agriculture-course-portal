@@ -1,7 +1,7 @@
 import Icon from "@/components/ui/icon";
 
 interface FooterProps {
-  onNavigate: (page: string) => void;
+  onNavigate: (page: string, data?: unknown) => void;
 }
 
 export default function Footer({ onNavigate }: FooterProps) {
