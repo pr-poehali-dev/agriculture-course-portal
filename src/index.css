@@ -122,23 +122,7 @@
   }
 
   .hero-mesh {
-    background:
-      radial-gradient(
-        ellipse at 20% 50%,
-        rgba(0, 200, 120, 0.15) 0%,
-        transparent 60%
-      ),
-      radial-gradient(
-        ellipse at 80% 20%,
-        rgba(245, 166, 35, 0.1) 0%,
-        transparent 50%
-      ),
-      radial-gradient(
-        ellipse at 60% 80%,
-        rgba(26, 122, 60, 0.2) 0%,
-        transparent 50%
-      ),
-      linear-gradient(135deg, #063518 0%, #0f5228 40%, #1a7a3c 100%);
+    background: linear-gradient(135deg, #063518 0%, #0f5228 40%, #1a7a3c 100%);
   }
 
   .shimmer-text {
